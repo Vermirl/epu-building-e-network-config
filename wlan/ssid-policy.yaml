@@ -1,0 +1,11 @@
+controller: OC300-01
+ssid:
+  - name: EPU_SinhVien
+    vlan: 10
+    auth: captive-portal
+    client_isolation: true
+    band_steering: true
+  - name: EPU_GiangVien
+    vlan: 12
+    auth: 802.1X
+channels_2g: [1, 6, 11]
